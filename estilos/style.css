@@ -143,6 +143,10 @@ h2::after {
     flex-basis: 100%;
     max-width: 100%;
   }
+
+  .cabecalho h1 {
+    font-size: 100%;
+  }
 }
 
 /* Estilos para telas de desktops com largura mínima de 768px */
