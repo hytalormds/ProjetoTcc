@@ -32,14 +32,26 @@ nav {
   display: flex;
 }
 
-nav a {
-  margin-right: 10px;
-  color: #fff;
+a {
   text-decoration: none;
+  font-weight: bolder;
+  margin-right: 10px;
+  color: white;
+  font-size: 95%;
 }
 
-nav a:hover {
-  text-decoration: underline;
+
+nav a::after {
+  content: "";
+  background: #ff5d00;
+  height: 3px;
+  display: block;
+  width: 0%;
+  transition: 0.4s;
+}
+
+nav a:hover::after {
+  width: 100%;
 }
 
 nav a:last-child {
@@ -138,6 +150,10 @@ h2::after {
   color: white;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Estilos para telas móveis com largura máxima de 767px */
 @media (max-width: 767px) {
   h2 {
@@ -169,15 +185,6 @@ h2::after {
   }
 }
 
-header nav a[href^="#"] {
-  text-decoration: none;
-  color: white;
-}
 
-header nav a[href^="#"]:hover {
-  text-decoration: underline;
-}
 
-html {
-  scroll-behavior: smooth;
-}
+
