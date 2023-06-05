@@ -28,12 +28,12 @@ h2 {
     text-align: center;
     color: white;
     margin-bottom: 10px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Adiciona sombra de texto */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); 
 }
 
 h1 {
     font-size: 40px;
-    font-weight: bold; /* Adiciona negrito ao texto */
+    font-weight: bold; 
 }
 
 h2 {

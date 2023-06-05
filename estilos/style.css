@@ -97,6 +97,10 @@ h2::after {
   height: auto;
 }
 
+.ft{
+  border-radius: 50%;
+}
+
 .card h3,
 .card p {
   margin-bottom: 10px;
