@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+#interface {
+  width: 100vw;
+}
+
 html,
 body {
   height: 100%;
@@ -190,6 +194,16 @@ html {
 }
 
 /* Estilos para telas móveis com largura máxima de 767px */
+@media (max-width: 414px) {
+  nav a {
+    font-size: 70% !important;
+    margin-inline: 0; 
+  }
+  nav {
+    flex-direction: column;
+  }
+}
+
 @media (max-width: 767px) {
   h2 {
     margin-bottom: 10px;
@@ -201,6 +215,11 @@ html {
 
   .cabecalho h1 {
     font-size: 100%;
+  }
+
+  nav a {
+    font-size: 100%;
+    margin-inline: 10px;
   }
 }
 
