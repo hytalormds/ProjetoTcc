@@ -22,7 +22,3 @@ Os principais objetivos deste projeto são:
 1. Demonstrar a criação de um site estático utilizando tecnologias web comuns.
 2. Exibir os currículos dos membros do grupo "Escola da Nuvem" de forma organizada e acessível.
 3. Utilizar os serviços da AWS (Amazon Web Services) para hospedar e distribuir o site.
-
-## Agradecimentos
-
-Agradeço a todos os membros do grupo "Escola da Nuvem" que contribuíram para o desenvolvimento deste projeto.
